@@ -40,6 +40,59 @@ hr{
   color: #A08F7B;
 }
 
+/* --------------- MOBILE SCREENS -------------- */
+
+@media screen and (min-width: 300px) and (max-width: 430px) and (min-height: 500px) and (max-height: 830px){
+  .sales-mn-ctr{
+    margin: 0 auto;
+    width: 98%;
+    height: 60%;
+  }
+  .sales-hdr{
+    font-size: 90%;
+    margin: 15px 0px 0 30px;
+  }
+}
+/* GS5 & IP6 */
+@media screen and (min-width: 360px) and (max-width: 375px) and (min-height: 600px) and (max-height: 680px){
+  hr{
+    margin: 0 auto;
+  }
+}
+/* IP+ & PX2 */
+
+@media screen and (min-width: 360px) and (max-width: 420px) and (min-height: 800px) and (max-height: 830px){
+  .sales-data {
+    height: 75%;
+  }
+}
+/* IP5 */
+@media screen and (max-width: 350px){
+  hr{
+    margin: 0 auto;
+  }
+  .sales-totals p {
+    font-size: 70%;
+  }
+}
+/* ********* Landscape *********** */
+@media screen and (min-width: 430px) and (max-width: 830px) and (min-height: 300px) and (max-height: 450px){
+  .sales-hdr{
+    margin: 10px 0px 0 20px;
+    font-size: 100%;
+  }
+  .sales-mn-ctr{
+    width: 70%;
+  }
+  hr{
+    margin: 0 auto;
+  }
+  .sales-totals p {
+    font-size: 70%;
+  }
+}
+
+/* --------------- PC SCREENS -------------- */
 @media screen and (max-width: 1450px){
   .sales-values{
     font-size: 20px;

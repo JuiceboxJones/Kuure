@@ -76,8 +76,77 @@ img{
   background: #A5A6A5; 
 }
 
+/* --------------- MOBILE SCREENS -------------- */
 
-@media screen and (max-width: 1450px){
+@media screen and (max-width: 425px) {
+  ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  li p{
+    font-size: 60%;
+  }
+  .collabs-mn-ctr{
+    width: 98%;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    margin-top: 7%;
+  }
+  .collabs-subctr{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 8px;
+  }
+  .collabs-subctr::-webkit-scrollbar {
+    height: 3px;
+  }
+  .collabs-subtitle{
+    font-size: 70%;
+  }
+  .collabs-title{
+    font-size: 90%;
+  }
+  .req-btn{
+    font-size: 50%;
+  }
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 375px) and (min-height: 600px) and (max-height: 680px){
+  .collabs-mn-ctr{
+    margin-top: 4%;
+  }
+}
+
+/* ********* Landscape *********** */
+
+@media screen and (min-width: 430px) and (max-width: 830px) and (min-height: 300px) and (max-height: 450px){
+  .collabs-hdr{
+    margin-left: 10px;
+  }
+  .collabs-subtitle{
+    font-size: 60%;
+  }
+  li p{
+    font-size: 80%;
+  }
+  ul{
+    columns: 1;
+  }
+  .collabs-title{
+    font-size: 100%;
+  }
+  .collabs-subctr{
+    height: 77%;
+  }
+}
+
+
+/* --------------- PC SCREENS -------------- */
+
+@media screen and (min-width:830px) and (max-width: 1450px){
   .collabs-title{
     font-size: 100%;
   }
@@ -89,6 +158,8 @@ img{
     font-size: 70%;
   }
 }
+
+
 
 @media screen and (min-width: 2100px) {
 li{

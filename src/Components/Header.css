@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro');
 
 .headerWrapper{
-  /* border: 1px solid black; */
   height: 10vh;
   display: flex;
   align-items: center;
@@ -29,6 +28,36 @@
   cursor: pointer;
 }
 
+/* --------------- MOBILE SCREENS -------------- */
+
+@media screen and (max-width: 425px) {
+  .headerTitle{
+    font-size: 40px;
+  }
+  .navLinks{
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 375px) and (min-height: 600px) and (max-height: 680px){
+  .headerWrapper{
+    height: 50px;
+    margin-bottom: 0;
+  }
+}
+
+/* ********* Landscape *********** */
+
+@media screen and (min-width: 430px) and (max-width: 830px) and (min-height: 300px) and (max-height: 450px){
+  .headerTitle{
+    font-size: 140%;
+  }
+  .navLinks{
+    font-size: 60%;
+  }
+}
+
+/* --------------- PC SCREENS -------------- */
 
 @media screen and (min-width: 2100px){
   .headerTitle{
