@@ -1,0 +1,106 @@
+ul{
+  columns: 2;
+  padding: 0;
+}
+li{
+  list-style-type: none;
+  margin: 0 auto;
+  width: fit-content;
+  padding: 5px;
+  text-align: center;
+}
+img{
+  width: 75%;
+  height: 75%;
+}
+.collabs-mn-ctr{
+  width: 25%;
+  background: #FFFFFF;
+}
+.collabs-hdr{
+  text-align: left;
+  margin-left: 30px;
+}
+.collabs-title{
+  font-size: 25px;
+  font-weight: bolder;
+  color: #A08F7B;
+  margin-bottom: 0px;
+
+}
+.collabs-subtitle{
+  margin: 7px 0 5px 0px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #B8B8B8;
+}
+.collabs-subctr{
+  overflow-y: auto;
+  position: relative;
+  height: 84%;
+  margin-right: 8px;
+}
+.item-title{
+  /* Used text-shadow because font-weight wasn't bold enough to match the mockup */
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
+  margin-bottom: 1px;
+  color: #A7A7A7;
+}
+.item-desc{
+  margin-top: 1px;
+  font-weight: bold;
+  color: #B8B8B8;
+}
+.req-btn{
+  border: none;
+  border-radius: 4px;
+  padding: 3px;
+  width: 100px;
+  color: white;
+  background: #A08F7B;
+  font-weight: bold;
+  font-family: 'Maven Pro', sans-serif;
+}
+.req-btn:hover{
+  cursor: pointer;
+  background: #877868;
+}
+
+.collabs-subctr::-webkit-scrollbar {
+  width: 3px;
+}
+.collabs-subctr::-webkit-scrollbar-thumb {
+  background: #03DDFF;
+}
+.collabs-subctr::-webkit-scrollbar-track {
+  background: #A5A6A5; 
+}
+
+
+
+@media screen and (min-width: 2100px) {
+li{
+  width: auto;
+  font-size: 140%;
+}
+.collabs-title {
+  font-size: 40px;
+}
+.collabs-subtitle{
+  font-size: 26px;
+}
+.collabs-subctr{
+  margin-right: 15px;
+}
+.collabs-subctr::-webkit-scrollbar {
+  width: 6px;
+}
+.req-btn{
+  height: 35px;
+  width: 170px;
+  font-size: 22px;
+}
+
+}
+
+

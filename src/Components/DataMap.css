@@ -1,0 +1,66 @@
+
+.viewSelector{
+  border: none;
+  border-radius: 4px;
+  padding: 3px;
+  width: 100px;
+  color: white;
+  background: #A08F7B;
+  font-weight: bold;
+  font-family: 'Maven Pro', sans-serif;
+  margin-right: 10px;
+  float: right;
+  position: relative;
+  margin-top: 10px;
+}
+.viewSelector:hover{
+  cursor: pointer;
+  background: #877868;
+}
+.viewSelector:focus{
+  background: #776959;
+  outline: none;
+}
+.dataChart{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: top;
+  overflow: hidden;
+}
+.data-section-wrap{
+  height: 100%;
+}
+svg{
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 45%;
+  width: 100%;
+  margin-top: 3%;
+}
+
+
+@media screen and (min-width: 2100px) {
+  svg{
+    margin-top:10%;
+    height:50%
+  }
+  .viewSelector{
+    height: 35px;
+    width: 15%;
+    font-size: 22px;
+  }
+
+}
+
+
+@media screen and (min-width: 2800px) {
+  svg{
+    margin-top:10%;
+    height:50%
+  }
+
+}

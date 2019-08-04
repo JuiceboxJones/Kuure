@@ -1,0 +1,59 @@
+hr{
+  width:75%;
+  border: 1px solid #E5E5E5;
+}
+
+.sales-totals{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sales-mn-ctr{
+  width: 58%;
+  background: #FFFFFF;
+}
+
+.sales-data{
+  height: 80%;
+}
+
+.sales-values{
+  font-weight: bolder;
+  font-size: 25px;
+  margin: 2px;
+  color: #5C5C5C;
+}
+
+.sales-text{
+  color: #B8B8B8;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.sales-hdr{
+  text-align: left;
+  margin: 23px 0px 0 30px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #A08F7B;
+}
+
+@media screen and (min-width: 2100px) {
+  .sales-hdr{
+    font-size: 40px;
+  }
+
+  .sales-values{
+    font-size: 45px;
+  }
+  .sales-text{
+    font-size: 30px;
+  }
+  hr{
+    margin-bottom: 30px;
+  }
+  
+  }
+  
+  
