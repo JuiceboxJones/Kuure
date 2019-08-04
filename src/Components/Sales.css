@@ -6,6 +6,7 @@ hr{
 .sales-totals{
   display: flex;
   justify-content: space-evenly;
+  text-align: center;
 }
 
 .sales-mn-ctr{
@@ -37,6 +38,16 @@ hr{
   font-size: 25px;
   font-weight: bolder;
   color: #A08F7B;
+}
+
+@media screen and (max-width: 1450px){
+  .sales-values{
+    font-size: 20px;
+  }
+  .sales-text{
+    font-size: 12px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 2100px) {

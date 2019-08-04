@@ -29,6 +29,7 @@
   cursor: pointer;
 }
 
+
 @media screen and (min-width: 2100px){
   .headerTitle{
     font-size: 75px;

@@ -43,6 +43,12 @@ svg{
 }
 
 
+@media screen and (max-width: 1450px){
+  svg{
+    height: 40%;
+  }
+}
+
 @media screen and (min-width: 2100px) {
   svg{
     margin-top:10%;
@@ -52,15 +58,6 @@ svg{
     height: 35px;
     width: 15%;
     font-size: 22px;
-  }
-
-}
-
-
-@media screen and (min-width: 2800px) {
-  svg{
-    margin-top:10%;
-    height:50%
   }
 
 }
