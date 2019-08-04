@@ -54,12 +54,14 @@ hr{
   .sales-hdr{
     font-size: 40px;
   }
-
   .sales-values{
     font-size: 45px;
   }
   .sales-text{
     font-size: 30px;
+  }
+  .sales-hdr{
+    font-size: 90%;
   }
   hr{
     margin-bottom: 30px;
