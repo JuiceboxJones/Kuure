@@ -85,6 +85,9 @@ img{
     font-size: 90%;
     margin-top: 1px;
   }
+  li p{
+    font-size: 70%;
+  }
 }
 
 @media screen and (min-width: 2100px) {
