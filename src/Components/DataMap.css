@@ -2,7 +2,7 @@
 .viewSelector{
   border: none;
   border-radius: 4px;
-  padding: 5px 15px 5px 15px;
+  padding: 2px 15px 2px 15px;
   width: fit-content;
   color: white;
   background: #A08F7B;
@@ -46,8 +46,8 @@ svg{
 
 @media screen and (min-width: 300px) and (max-width: 430px) and (min-height: 500px) and (max-height: 830px){
   .viewSelector{
-    width: 15%;
-    font-size: 20%;
+    width: fit-content;
+    font-size: 60%;
   }
 }
 /* GS5 & IP6 */
